@@ -1,0 +1,17 @@
+{
+  "presets": [
+      [
+          "@babel/preset-env",
+          {
+              "targets": {
+                  "browsers": [
+                      "Android >= 4",
+                      "iOS >= 8",
+                      "not ie <= 8"
+                  ]
+              },
+              "modules": false
+          }
+      ]
+  ]
+}

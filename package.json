@@ -1,0 +1,24 @@
+{
+  "name": "event-tracking",
+  "version": "1.0.0",
+  "description": "Non-invasive event track",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "event",
+    "track"
+  ],
+  "author": "kejiedong@corp.netease.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
