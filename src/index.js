@@ -10,6 +10,7 @@ function eventTracking(el, options, isCapture) {
         throw new Error('options请传入数组！')
       }
       for (let i = 0; i < options.length; i++) {
+        // TODO: target judge
         if (document.querySelector(options[i].target).contains(e.target)) {
           if (options[i].params) {
             let params = {}
