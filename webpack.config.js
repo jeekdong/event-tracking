@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   mode: 'production',
   entry: {
-    eventTrack: "./src/index.js"
+    eventTrace: "./src/index.js"
   },
   output: {
     path: path.resolve(__dirname, "dist"),
