@@ -35,8 +35,8 @@ event('#app', [
     },
     {
         target: '.name',
-        handle: (id) => {
-            console.log('click name!', id)
+        handle: (params) => {
+            console.log('click name!', params.id)
         },
         params: ['id']
     }
