@@ -1,8 +1,8 @@
 {
-  "name": "event-tracking",
-  "version": "1.0.0",
+  "name": "event-trace",
+  "version": "0.1.0",
   "description": "Non-invasive event track",
-  "main": "index.js",
+  "main": "dist/eventTrace.bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -11,7 +11,12 @@
     "event",
     "track"
   ],
-  "author": "kejiedong@corp.netease.com",
+  "unpkg": "dist/eventTrace.bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeekdong/event-tracking.git"
+  },
+  "author": "jeekdong@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.3",

@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "dist"),
-    library: "eventTracking",
+    library: "eventTrace",
     libraryTarget: "umd",
     filename: "[name].bundle.js",
     libraryExport: "default"
