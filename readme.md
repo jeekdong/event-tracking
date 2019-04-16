@@ -17,7 +17,7 @@ $ yarn add event-trace
 采用 ES6 语法引入 event-trace
 
 ```js
-import event from 'event-trace'
+import eventTrace from 'event-trace'
 ```
 
 通过 `script` 标签加载会暴露名为 `eventTrace` 的全局变量
@@ -25,7 +25,7 @@ import event from 'event-trace'
 ### example
 
 ```js
-event('#app', [
+eventTrace('#app', [
     {
         target: '.header',
         handle: () => {
@@ -45,7 +45,7 @@ event('#app', [
 
 ## params
 
-导入的 `event-trace` 函数接受三个参数
+导入的 `eventTrace` 函数接受三个参数
 
 * 第一个是需要绑定事件元素元素(可传入css选择器 或 DOM元素的引用)
 * 第二个是配置对象，如下

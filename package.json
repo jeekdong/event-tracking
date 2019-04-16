@@ -1,6 +1,6 @@
 {
   "name": "event-trace",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Non-invasive event track",
   "main": "dist/eventTrace.bundle.js",
   "scripts": {
